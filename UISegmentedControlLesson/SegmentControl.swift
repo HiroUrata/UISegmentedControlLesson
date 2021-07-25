@@ -20,6 +20,8 @@ extension SegmentControl{
     
     func createSegmentControl(targetView:UIView){
         
+        uiSegmentControl.selectedSegmentTintColor = UIColor.white
+        
         uiSegmentControl = UISegmentedControl(items: [])
         
         for count in 0...segmentContentsArray.count - 1{
@@ -28,7 +30,7 @@ extension SegmentControl{
             
         }
         
-        uiSegmentControl.frame.origin = CGPoint(x: 100, y: 60)
+        uiSegmentControl.frame = CGRect(x: targetView.bounds.minX, y: targetView.bounds.minY + 100, width: targetView.frame.size.width / 3, height: targetView.frame.size.height / 20)
         
         targetView.addSubview(uiSegmentControl)
         
