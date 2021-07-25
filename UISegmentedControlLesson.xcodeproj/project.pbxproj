@@ -13,6 +13,7 @@
 		5455E35826AD4C16007FA9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5455E35626AD4C16007FA9D1 /* Main.storyboard */; };
 		5455E35A26AD4C1B007FA9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5455E35926AD4C1B007FA9D1 /* Assets.xcassets */; };
 		5455E35D26AD4C1B007FA9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5455E35B26AD4C1B007FA9D1 /* LaunchScreen.storyboard */; };
+		5455E36526AD5236007FA9D1 /* SegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455E36426AD5236007FA9D1 /* SegmentControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5455E35926AD4C1B007FA9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5455E35C26AD4C1B007FA9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5455E35E26AD4C1B007FA9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5455E36426AD5236007FA9D1 /* SegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5455E35026AD4C16007FA9D1 /* AppDelegate.swift */,
 				5455E35226AD4C16007FA9D1 /* SceneDelegate.swift */,
 				5455E35426AD4C16007FA9D1 /* ViewController.swift */,
+				5455E36426AD5236007FA9D1 /* SegmentControl.swift */,
 				5455E35626AD4C16007FA9D1 /* Main.storyboard */,
 				5455E35926AD4C1B007FA9D1 /* Assets.xcassets */,
 				5455E35B26AD4C1B007FA9D1 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				5455E35526AD4C16007FA9D1 /* ViewController.swift in Sources */,
 				5455E35126AD4C16007FA9D1 /* AppDelegate.swift in Sources */,
 				5455E35326AD4C16007FA9D1 /* SceneDelegate.swift in Sources */,
+				5455E36526AD5236007FA9D1 /* SegmentControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SegmentedControl.UISegmentedControlLesson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SegmentedControl.UISegmentedControlLesson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
