@@ -45,18 +45,6 @@ class ViewController: UIViewController {
             
         }
         
-//        for searchSegmentCount in segmentControl.segmentContentsArray{
-//
-//            if String(segmentCount) != searchSegmentCount{
-//
-//                segmentControl.segmentContentsArray.append(String(segmentCount))
-//
-//                segmentControl.uiSegmentControl.insertSegment(withTitle: String(segmentCount), at: segmentCount - 1, animated: true)
-//
-//            }
-//
-//        }
-        
     }
     
 }

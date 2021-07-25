@@ -11,7 +11,7 @@ import UIKit
 class SegmentControl{
     
     var uiSegmentControl = UISegmentedControl()
-    var segmentContentsArray = ["0","1","2"]
+    var segmentContentsArray = ["0","1","2"] //最初に表示するSegment
     
 }
 
