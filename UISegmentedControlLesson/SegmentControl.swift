@@ -31,6 +31,7 @@ extension SegmentControl{
         uiSegmentControl.frame = CGRect(x: targetView.bounds.minX, y: targetView.bounds.minY + 100, width: targetView.frame.size.width / CGFloat(segmentContentsArray.count), height: targetView.frame.size.height / 20)
         
         uiSegmentControl.backgroundColor = UIColor.white
+        uiSegmentControl.selectedSegmentTintColor = UIColor.gray
         
         targetView.addSubview(uiSegmentControl)
         
