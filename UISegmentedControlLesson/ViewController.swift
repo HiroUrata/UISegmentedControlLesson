@@ -35,7 +35,7 @@ class ViewController: UIViewController {
             
             segmentControl.uiSegmentControl.insertSegment(withTitle: String(segmentCount), at: segmentCount , animated: true)
             
-            segmentControl.uiSegmentControl.frame = CGRect(x: segmentControl.uiSegmentControl.bounds.minX, y: segmentControl.uiSegmentControl.bounds.minY + 100, width: segmentControl.uiSegmentControl.frame.size.width + self.view.frame.size.width / CGFloat(segmentCount), height: segmentControl.uiSegmentControl.frame.size.height)
+            segmentControl.uiSegmentControl.frame = CGRect(x: segmentControl.uiSegmentControl.bounds.minX, y: segmentControl.uiSegmentControl.bounds.minY + 100, width: segmentControl.uiSegmentControl.frame.width + 35, height: segmentControl.uiSegmentControl.frame.size.height)
             
             print(segmentControl.segmentContentsArray)
             
