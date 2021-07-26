@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  
+    
     let segmentControl = SegmentControl()
     
     var segmentCount = 0
@@ -39,13 +41,13 @@ class ViewController: UIViewController {
             
             print(segmentControl.segmentContentsArray)
             
+            
         }else{
             
             print(segmentControl.segmentContentsArray)
             
         }
-        print(segmentCount)
-        print(segmentControl.segmentContentsArray[segmentCount])
+        
     }
     
     @IBAction func minusSegment(_ sender: Any) {
