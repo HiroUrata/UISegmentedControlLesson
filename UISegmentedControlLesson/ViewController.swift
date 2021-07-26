@@ -44,8 +44,24 @@ class ViewController: UIViewController {
             print(segmentControl.segmentContentsArray)
             
         }
-        
+        print(segmentCount)
+        print(segmentControl.segmentContentsArray[segmentCount])
     }
     
+    @IBAction func minusSegment(_ sender: Any) {
+        
+        if segmentControl.segmentContentsArray[segmentCount] == String(segmentCount){
+            
+            segmentControl.uiSegmentControl.removeSegment(at: segmentCount, animated: true)
+            
+            segmentControl.segmentContentsArray.remove(at: segmentCount)
+            print(segmentControl.segmentContentsArray)
+            
+            segmentCount -= 1
+                        
+            segmentControl.uiSegmentControl.frame = CGRect(x: segmentControl.uiSegmentControl.bounds.minX, y: segmentControl.uiSegmentControl.bounds.minY + 100, width: segmentControl.uiSegmentControl.frame.width - 35, height: segmentControl.uiSegmentControl.frame.size.height)
+        }
+        
+    }
 }
 
